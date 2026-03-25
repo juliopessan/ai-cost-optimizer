@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
+import { useI18n, LocaleSwitcher } from '@/lib/i18n'
 import {
   AreaChart, Area, BarChart, Bar, XAxis, YAxis, CartesianGrid,
   Tooltip, ResponsiveContainer, PieChart, Pie, Cell, Legend
@@ -78,6 +79,7 @@ function SectionHeader({ icon, title, subtitle }: { icon: string; title: string;
 // ─── Main Page ────────────────────────────────────────────────────────────────
 
 export default function Dashboard() {
+  const { t } = useI18n()
   const [tab, setTab] = useState<'overview' | 'router' | 'prompter' | 'cache'>('overview')
   const [timeSeries, setTimeSeries] = useState<TimePoint[]>([])
   const [breakdown, setBreakdown] = useState<Breakdown | null>(null)
@@ -168,7 +170,8 @@ export default function Dashboard() {
               <p className="text-xs text-gray-500">Model routing · Caching · Adaptive prompting · Analytics</p>
             </div>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-3">
+            <LocaleSwitcher />
             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
             <span className="text-xs text-gray-500 font-medium">Live</span>
           </div>
