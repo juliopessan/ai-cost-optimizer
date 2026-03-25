@@ -255,3 +255,42 @@ MIT © [Julio Pessan](https://github.com/juliopessan) · Built at [FCamara](http
 <div align="center">
   <sub>If this saves you money, consider giving it a ⭐</sub>
 </div>
+
+---
+
+## 🎨 UI & Animations
+
+### DNA Favicon
+SVG favicon with double-helix DNA motif in FCamara orange (`#FF6B35 → #F04E37` gradient). Served as `public/favicon.svg` — no rasterization needed, scales perfectly at any resolution.
+
+### Framer Motion Animations
+
+| Element | Animation |
+|---------|-----------|
+| Header | Slides down on mount (`y: -60 → 0`) |
+| Active tab indicator | Spring-physics `layoutId` shared layout |
+| KPI stat cards | Staggered scale-in with `0.06s` delay per card |
+| Dashboard sections | `fadeUp` with custom easing on entry |
+| Tab content | `AnimatePresence` cross-fade between tabs |
+| Optimization tip rows | `whileHover` slide-right + background tint |
+| Router result | Scale-in reveal on data arrival |
+| Buttons | `whileHover` scale + `whileTap` press feedback |
+| Textarea | `whileFocus` orange glow ring |
+| DNA Logo | `whileHover` rotate + scale spring |
+| Loading spinner | Concentric rotating rings + pulsing DNA emoji |
+| Live indicator dot | Continuous scale pulse |
+| Animated numbers | Counter from 0 to value on mount |
+| Cache empty state | Looping wobble on search icon |
+| Footer | Delayed fade-in after content loads |
+
+### Components
+
+```
+DNALogo        — SVG helix inside orange gradient circle, spring hover
+DNASpinner     — 4 concentric rotating rings + 🧬 pulse (loading state)
+AnimatedNumber — Smooth counter animation from 0 → value on mount
+StatCard       — Scale-in with stagger + lift-shadow on hover
+Badge          — Scale-in pop on render
+SectionHeader  — Slide-right entry with icon spring-hover
+LocaleSwitcher — 🇧🇷 PT / 🇺🇸 EN toggle with active state
+```

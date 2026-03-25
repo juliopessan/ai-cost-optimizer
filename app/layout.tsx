@@ -5,6 +5,11 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'AI Cost Optimizer — FCamara',
   description: 'Reduce LLM costs by up to 70% with intelligent model routing, caching, and adaptive prompting.',
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+  },
   openGraph: {
     title: 'AI Cost Optimizer',
     description: 'Model routing · Cost analysis · Response caching · Adaptive prompting',
