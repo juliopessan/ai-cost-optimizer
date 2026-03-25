@@ -1,4 +1,4 @@
-# 🧠 AI Cost Optimizer Framework
+# 🧬 Orange DNA — AI Cost Optimizer
 
 <div align="center">
 
@@ -8,7 +8,7 @@
 ![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-**Reduce LLM costs by up to 70% with intelligent model routing, semantic caching, adaptive prompting, and real-time cost analytics.**
+**Orange DNA reduces LLM costs by up to 70% with intelligent model routing, semantic caching, adaptive prompting, and real-time cost analytics.**
 
 </div>
 
@@ -250,7 +250,7 @@ PRs welcome! Areas to extend:
 
 ## 📄 License
 
-MIT © [Julio Pessan](https://github.com/juliopessan) · Built at [FCamara](https://fcamara.com) AI Practice
+MIT © [Julio Pessan](https://github.com/juliopessan) · [Orange DNA](https://orangedna.ai)
 
 <div align="center">
   <sub>If this saves you money, consider giving it a ⭐</sub>
@@ -261,7 +261,7 @@ MIT © [Julio Pessan](https://github.com/juliopessan) · Built at [FCamara](http
 ## 🎨 UI & Animations
 
 ### DNA Favicon
-SVG favicon with double-helix DNA motif in FCamara orange (`#FF6B35 → #F04E37` gradient). Served as `public/favicon.svg` — no rasterization needed, scales perfectly at any resolution.
+SVG favicon with double-helix DNA motif in Orange DNA orange (`#FF6B35 → #F04E37` gradient). Served as `public/favicon.svg` — no rasterization needed, scales perfectly at any resolution.
 
 ### Framer Motion Animations
 
@@ -294,3 +294,19 @@ Badge          — Scale-in pop on render
 SectionHeader  — Slide-right entry with icon spring-hover
 LocaleSwitcher — 🇧🇷 PT / 🇺🇸 EN toggle with active state
 ```
+
+---
+
+## 🧬 Orange DNA Brand
+
+This project is branded under **Orange DNA** — a platform identity built around the idea that intelligence compounds, just like genetic code.
+
+| Token | Value |
+|-------|-------|
+| Primary | `#FF6B35` |
+| Accent | `#F04E37` |
+| Gradient | `135deg #FF6B35 → #F04E37` |
+| Symbol | DNA double-helix `🧬` |
+| Font weight | Black (900) for headings |
+
+The DNA motif represents the **compounding nature of optimization** — each technique (routing, caching, prompting, batching) is a base pair that, combined, encodes dramatically lower costs.

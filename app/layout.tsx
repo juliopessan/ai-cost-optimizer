@@ -3,7 +3,7 @@ import { I18nProvider } from '@/lib/i18n'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'AI Cost Optimizer — FCamara',
+  title: 'AI Cost Optimizer — Orange DNA',
   description: 'Reduce LLM costs by up to 70% with intelligent model routing, caching, and adaptive prompting.',
   icons: {
     icon: [

@@ -28,11 +28,11 @@ type Catalog = Record<string, Record<string, TranslationValue>>
 const TRANSLATIONS: Record<Locale, Catalog> = {
   en: {
     app: {
-      name: 'AI Cost Optimizer',
+      name: 'Orange DNA Cost Optimizer',
       tagline: 'Model routing · Caching · Adaptive prompting · Analytics',
       live: 'Live',
-      built_by: 'Built at FCamara AI Practice',
-      footer: 'AI Cost Optimizer Framework · Built with Next.js + TypeScript',
+      built_by: 'Built at Orange DNA',
+      footer: 'AI Cost Optimizer · Orange DNA · Next.js + TypeScript',
     },
     nav: {
       overview: 'Overview',
@@ -145,11 +145,11 @@ const TRANSLATIONS: Record<Locale, Catalog> = {
 
   'pt-BR': {
     app: {
-      name: 'Otimizador de Custos de IA',
+      name: 'Orange DNA Cost Optimizer',
       tagline: 'Roteamento de modelos · Cache · Prompts adaptativos · Analytics',
       live: 'Ao vivo',
-      built_by: 'Desenvolvido na FCamara AI Practice',
-      footer: 'AI Cost Optimizer Framework · Desenvolvido com Next.js + TypeScript',
+      built_by: 'Desenvolvido na Orange DNA',
+      footer: 'AI Cost Optimizer · Orange DNA · Next.js + TypeScript',
     },
     nav: {
       overview: 'Visão Geral',
