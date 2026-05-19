@@ -1,4 +1,4 @@
-# 🧬 Orange DNA — AI Cost Optimizer
+# 🧬AI Cost Optimizer
 
 <div align="center">
 
@@ -297,9 +297,9 @@ LocaleSwitcher — 🇧🇷 PT / 🇺🇸 EN toggle with active state
 
 ---
 
-## 🧬 Orange DNA Brand
+## 🧬 DNA Brand
 
-This project is branded under **Orange DNA** — a platform identity built around the idea that intelligence compounds, just like genetic code.
+This project is branded under **DNA** — a platform identity built around the idea that intelligence compounds, just like genetic code.
 
 | Token | Value |
 |-------|-------|
